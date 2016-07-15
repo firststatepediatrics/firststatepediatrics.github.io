@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="{{ page.bodyclass }}">
+
+    {% include nav.html %}
+
+    <div id="main-content" class="container">
+    		{% include jumpnav.html %}
+    		{% include home-balloons.html %}
+    		<h1 class="page-title">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
+        {% if page.content.size > 10 %}
+        	<div class="announcement">
+        		{{ content }}
+        	</div>
+        {% endif %}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
