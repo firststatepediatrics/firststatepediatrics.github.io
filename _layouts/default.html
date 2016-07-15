@@ -9,7 +9,7 @@
 
     <div id="main-content" class="container">
     		{% include jumpnav.html %}
-    		<h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
+    		<h1 class="page-title">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
         {{ content }}
     </div>
 
