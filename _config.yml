@@ -11,7 +11,7 @@ title: First State Pediatrics
 description: > # this means to ignore newlines until "baseurl:"
   First State Pediatrics. Office locations in Newark and Hockessin Delaware.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://firststatepediatrics.com" # the base hostname & protocol for your site
+# url: "http://firststatepediatrics.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
