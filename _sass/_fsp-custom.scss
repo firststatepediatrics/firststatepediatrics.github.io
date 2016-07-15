@@ -1,0 +1,127 @@
+body {
+	padding-top: 90px;
+	background-image: url("../images/fsp-home-logo-bg.gif");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+//navbar scss
+.navbar-fixed-top {
+	border-width: 0 0 3px 0;
+}
+nav.navbar {
+	@media (min-width: $screen-md-min) {
+		font-size: $font-size-large;
+	}
+	.navbar-brand {
+		padding: $navbar-padding-horizontal/4 $navbar-padding-horizontal;
+  	> img {
+	  	max-height: $navbar-height - $navbar-padding-horizontal/2;
+		}
+	}
+	
+	.nav {
+	  > li {
+    	> a {
+      	@media (min-width: $screen-sm-min) {
+      		//padding: 25px 10px; //need to sqeeze in the horizontal nav
+      	}
+      	@media (min-width: $screen-md-min) {
+      		//padding: 25px 15px;	
+      	}
+      }
+  	}
+  }
+}
+
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	30% { background-position: 10% 100%; }
+	50% { background-position: 100% 100%; }
+	80% { background-position: 90% 0; }
+	100% { background-position: 0 0; }
+}
+
+//main content area
+#main-content {
+	margin-bottom: $grid-gutter-width;
+}
+
+h1.title {
+ color: #0178BC;
+}
+// rounded image class
+.img-round{
+	border-radius: $border-radius-large;
+	border: 3px solid $extra-color-light;
+	display: block;
+}
+
+.media {
+	.media-left {
+		display: block;
+		@media (min-width: $screen-sm-min*0.65) {
+			display: table-cell;
+		}
+		padding-bottom: 10px;
+		.media-object {
+			@extend .img-round;
+			display: block;
+			margin: 0 auto;
+		}
+		
+	}
+}
+
+//staff picture grid
+.fsp-staff {
+	margin-top: $grid-gutter-width/2;
+	.thumbnail {
+		> img {
+			@extend .img-round;
+			height: 120px;
+			@media (min-width: $screen-sm-min*.75){
+				height: 200px;
+			}
+		}
+		.caption {
+			> h5 {
+				text-align: center;
+				margin: 0;
+			}	
+		}
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	a.phone {
+		color: #000;
+		text-decoration: none;
+		span.glyphicon {
+			display: none;
+		}
+	}
+}
+		
+//home adjustments
+body.site-home {
+	background-image: url("../images/clouds-02.jpg");
+	background-attachment: fixed;
+	//background-size: cover;
+	animation-name: animatedBackground;
+  animation-duration: 300s;
+  animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	//transform: translateZ(0);
+	.navbar-default {
+		//background-color: transparent;
+	}
+	footer {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1020;
+	}
+}

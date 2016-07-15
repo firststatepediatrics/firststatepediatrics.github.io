@@ -1,0 +1,7 @@
+{% if page.jumpnav %}
+	<div class="btn-group" role="group">
+	{% for jump in page.jumpnav %}
+    <a href="{{ jump.url }}" class="btn btn-default" role="button">{{ jump.title }}</a>
+  {% endfor %}
+  </div>
+{% endif %}

@@ -1,0 +1,49 @@
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="First State Pediatrics home">
+        		<img alt="First State Pediatrics" src="images/fsp-logo.png">
+      		</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        	<ul class="nav navbar-nav">
+						<li><a href="about.html"{% if page.url == "/about.html" %} class="active"{% endif %} title="About Us">About Us</a></li>
+						<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact &amp; Hours <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              	<li><a href="contact-hockessin.html"{% if page.url == "/contact-hockessin.html" %} class="active"{% endif %} title="Hockessin Contact &amp; Hours">Hockessin</a></li>
+								<li><a href="contact-newark.html"{% if page.url == "/contact-newark.html" %} class="active"{% endif %} title="Contact &amp; Hours">Newark</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Directions <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              	<li><a href="directions-hockessin.html"{% if page.url == "/directions-hockessin.html" %} class="active"{% endif %} title="Directions to Hockessin Office">Hockessin</a></li>
+								<li><a href="directions-newark.html"{% if page.url == "/directions-newark.html" %} class="active"{% endif %} title="Directions to Newark Office">Newark</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Information For Parents <span class="caret"></span></a>
+              <ul class="dropdown-menu">              	
+								<li><a href="info-forms.html"{% if page.url == "/info-forms.html" %} class="active"{% endif %} title="Forms"><strong>Forms</strong></a></li>
+								<li><a href="info-insurance.html"{% if page.url == "/info-insurance.html" %} class="active"{% endif %} title="Insurance Information">Insurance Information</a></li>
+              	<li><a href="info-visitschedule.html"{% if page.url == "/info-visitschedule.html" %} class="active"{% endif %} title="Well Infant/Child Visit Schedule">Well Visit Schedule</a></li>
+								<li><a href="info-sickvisits.html"{% if page.url == "/info-sickvisits.html" %} class="active"{% endif %} title="Sick Visits and Calls">Sick Visits</a></li>
+								<li><a href="info-refills.html"{% if page.url == "/info-refills.html" %} class="active"{% endif %} title="Prescription Refills">Refills</a></li>
+								<li><a href="info-referrals.html"{% if page.url == "/info-referrals.html" %} class="active"{% endif %} title="Referrals">Referrals</a></li>
+								<li><a href="info-newparents.html"{% if page.url == "/info-newparents.html" %} class="active"{% endif %} title="New Parents">New Parents</a></li>
+								<li><a href="info-poison.html"{% if page.url == "/info-poison.html" %} class="active"{% endif %} title="Poison Control">Poison Control</a></li>
+								<li><a href="info/links.html"{% if page.url == "/info/links.html" %} class="active"{% endif %} title="Helpful Websites">Links</a></li>
+							</ul>
+						</li>
+					</ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
