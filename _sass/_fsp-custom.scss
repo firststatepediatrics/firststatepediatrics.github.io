@@ -15,7 +15,8 @@ nav.navbar {
 	.navbar-brand {
 		padding: $navbar-padding-horizontal/4 $navbar-padding-horizontal;
   	> img {
-	  	max-height: $navbar-height - $navbar-padding-horizontal/2;
+	  	//max-height: $navbar-height - $navbar-padding-horizontal/2;
+	  	height: 62px;
 	  	margin-right:  $navbar-padding-horizontal;
 		}
 	}
