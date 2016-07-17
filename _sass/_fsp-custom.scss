@@ -16,6 +16,7 @@ nav.navbar {
 		padding: $navbar-padding-horizontal/4 $navbar-padding-horizontal;
   	> img {
 	  	max-height: $navbar-height - $navbar-padding-horizontal/2;
+	  	margin-right:  $navbar-padding-horizontal;
 		}
 	}
 	
@@ -265,24 +266,31 @@ floating
 	background-size: 100% 100%;
 }
 #balloon1{
-	width: 55px;
-	height: 80px;
+	width: 75px;
+	height: 93px;
 	top: 50%;
 	left: 35%;
+	background-image: url(../images/balloon1.png);
 	@extend .floating3;	
 }
 #balloon2{
-	width: 80px;
-	height: 100px;
+	width: 100px;
+	height: 124px;
 	top: 30%;
 	left: 10%;
+	background-image: url(../images/balloon2.png);
 	@extend .floating2;	
 }
 #balloon3{
-	width: 150px;
-	height: 200px;
+	width: 200px;
+	height: 256px;
+	@media (min-width: $screen-sm-min - 100) {
+		width: 330px;
+		height: 422px;
+	}
 	top: 20%;
 	right: 15%;
+	background-image: url(../images/fsp-balloon.png);
 	@extend .floating1;	
 }
 

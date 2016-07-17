@@ -9,12 +9,19 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html" title="First State Pediatrics home">
-        		<img alt="First State Pediatrics" src="images/fsp-logo.png">
+        		<img alt="First State Pediatrics" src="images/fsp-logo-crop.png">
       		</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
         	<ul class="nav navbar-nav">
-						<li><a href="about.html"{% if page.url == "/about.html" %} class="active"{% endif %} title="About Us">About Us</a></li>
+						<li class="dropdown">
+							<a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Doctors <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+              	<li><a href="doctors-hockessin.html"{% if page.url == "/doctors-hockessin.html" %} class="active"{% endif %} title="Hockessin Doctors">Hockessin</a></li>
+								<li><a href="doctors-newark.html"{% if page.url == "/doctors-newark.html" %} class="active"{% endif %} title="Newark Doctors">Newark</a></li>
+							</ul>
+						</li>
+						
 						<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -22,13 +29,6 @@
 								<li><a href="location-newark.html"{% if page.url == "/location-newark.html" %} class="active"{% endif %} title="Newark Contact, Hours and Directions">Newark</a></li>
 							</ul>
 						</li>
-						<!-- <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Directions <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              	<li><a href="directions-hockessin.html"{% if page.url == "/directions-hockessin.html" %} class="active"{% endif %} title="Directions to Hockessin Office">Hockessin</a></li>
-								<li><a href="directions-newark.html"{% if page.url == "/directions-newark.html" %} class="active"{% endif %} title="Directions to Newark Office">Newark</a></li>
-							</ul>
-						</li> //-->
 						<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Information For Parents <span class="caret"></span></a>
               <ul class="dropdown-menu">              	
