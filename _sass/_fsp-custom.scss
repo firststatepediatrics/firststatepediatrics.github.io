@@ -44,6 +44,7 @@ nav.navbar {
 //main content area
 #main-content {
 	margin-bottom: $grid-gutter-width;
+	postion: relative;
 }
 
 h1.title {
@@ -122,12 +123,27 @@ body.site-home {
 	h1.page-title {
 		@extend .sr-only;
 	}
+	.announcement {
+		@extend .alert;
+		@extend .alert-warning;
+		background-color:rgba(252, 248, 227, 0.85);
+		position: relative;
+		z-index: 1025;
+	}
 	footer {
 		position: fixed;
 		bottom: 0;
 		left: 0;
 		right: 0;
 		z-index: 1020;
+		address {
+			a {
+				text-shadow: -1px -1px 0 #ddd,
+					1px -1px 0 #ddd,
+					-1px 1px 0 #ddd,
+					1px 1px 0 #ddd;  
+			}
+		}
 	}
 }
 
@@ -244,7 +260,9 @@ floating
 
 .balloon{
 	position: absolute;
-	background-color: red; //testing only
+	background-color: transparent; 
+	background-image: url(../images/hot-air-balloon-test.png);
+	background-size: 100% 100%;
 }
 #balloon1{
 	width: 55px;
