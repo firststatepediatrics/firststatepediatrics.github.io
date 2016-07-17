@@ -20,7 +20,7 @@ First State Pediatrics Hockessin
 722 Yorklyn Road, Suite 100  
 Hockessin, DE 19707
 
-<a href="#top" class="top-jump" title="back to top"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span> top</a>
+{% include top-jump.html %}
 
 ### Phone
 Telephone: [302-235-1188](tel:13022351118)  
