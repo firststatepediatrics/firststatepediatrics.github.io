@@ -56,6 +56,10 @@ h1.title {
 	display: block;
 }
 
+.top-jump {
+	font-size: 90%;
+	float: right;
+}
 .media {
 	.media-left {
 		display: block;
@@ -126,3 +130,141 @@ body.site-home {
 		z-index: 1020;
 	}
 }
+
+/*
+==============================================
+floating
+==============================================
+*/
+
+.floating1{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 6.5s;	
+	-webkit-animation-duration: 6.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.floating2{
+	animation-name: floating2;
+	-webkit-animation-name: floating2;
+
+	animation-duration: 6s;	
+	-webkit-animation-duration: 6s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.floating3{
+	animation-name: floating3;
+	-webkit-animation-name: floating3;
+
+	animation-duration: 6.5s;	
+	-webkit-animation-duration: 6.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+@keyframes floating2 {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(6%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating2 {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(6%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+@keyframes floating3 {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(4.5%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating3 {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(4.5%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+.balloon{
+	position: absolute;
+	background-color: red; //testing only
+}
+#balloon1{
+	width: 55px;
+	height: 80px;
+	top: 50%;
+	left: 35%;
+	@extend .floating3;	
+}
+#balloon2{
+	width: 80px;
+	height: 100px;
+	top: 30%;
+	left: 10%;
+	@extend .floating2;	
+}
+#balloon3{
+	width: 150px;
+	height: 200px;
+	top: 20%;
+	right: 15%;
+	@extend .floating1;	
+}
+
