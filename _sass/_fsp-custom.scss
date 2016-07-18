@@ -133,18 +133,23 @@ body.site-home {
 		z-index: 1025;
 	}
 	footer {
-		position: fixed;
+		position: relative;
+		@media (min-height: 340px) {
+			position: fixed;
+		}
 		bottom: 0;
 		left: 0;
 		right: 0;
 		z-index: 1020;
 		address {
-			a {
 				text-shadow: -1px -1px 0 #ddd,
 					1px -1px 0 #ddd,
 					-1px 1px 0 #ddd,
 					1px 1px 0 #ddd;  
-			}
+				margin-bottom: 5px;
+				@media (min-height: 340px) {
+					margin-bottom: 20px;
+				}
 		}
 	}
 }
