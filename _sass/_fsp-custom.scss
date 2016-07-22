@@ -34,6 +34,7 @@ nav.navbar {
 		background-position: bottom center;
 		@media (min-width: $screen-sm-min){
 			background-image: none;
+			background-color: transparent;
 		}
 	}
 }
@@ -109,9 +110,13 @@ body.site-home {
 	background-image: url("../images/clouds-illustration-background-export.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	.navbar-default .navbar-header{
+	.navbar-default{
 		background-color: #f8f8f8;
 		background-image: none;
+		.navbar-header{
+			background-color: tranparent;
+			background-image: none;
+		}
 	}
 	h1.page-title {
 		@extend .sr-only;
