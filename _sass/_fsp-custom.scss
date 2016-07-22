@@ -20,33 +20,28 @@ nav.navbar {
 	  	margin-right:  $navbar-padding-horizontal;
 		}
 	}
-	
-	.nav {
-	  > li {
-    	> a {
-      	@media (min-width: $screen-sm-min) {
-      		//padding: 25px 10px; //need to sqeeze in the horizontal nav
-      	}
-      	@media (min-width: $screen-md-min) {
-      		//padding: 25px 15px;	
-      	}
-      }
-  	}
-  }
+	.navbar-toggle {
+		background-color: #f8f8f8;
+	}
 }
-
-@keyframes animatedBackground {
-	0% { background-position: 0 0; }
-	30% { background-position: 10% 100%; }
-	50% { background-position: 100% 100%; }
-	80% { background-position: 90% 0; }
-	100% { background-position: 0 0; }
+.navbar-default {
+	@media (min-width: $screen-sm-min){
+		background-image: url("../images/clouds-illustration-background-export.jpg");
+		background-position: bottom center;
+	}
+	.navbar-header {
+		background-image: url("../images/clouds-illustration-background-export.jpg");
+		background-position: bottom center;
+		@media (min-width: $screen-sm-min){
+			background-image: none;
+		}
+	}
 }
 
 //main content area
 #main-content {
 	margin-bottom: $grid-gutter-width;
-	postion: relative;
+	position: relative;
 }
 
 h1.title {
@@ -111,16 +106,12 @@ h1.title {
 		
 //home adjustments
 body.site-home {
-	background-image: url("../images/clouds-illustration-background.jpg");
+	background-image: url("../images/clouds-illustration-background-export.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	/*animation-name: animatedBackground;
-  animation-duration: 300s;
-  animation-timing-function: linear;
-	animation-iteration-count: infinite;*/
-	//transform: translateZ(0);
-	.navbar-default {
-		//background-color: transparent;
+	.navbar-default .navbar-header{
+		background-color: #f8f8f8;
+		background-image: none;
 	}
 	h1.page-title {
 		@extend .sr-only;
