@@ -18,10 +18,10 @@ title: Hockessin Doctors
 
 <div class="media"> 
 	<div class="media-left"> 
-		<img class="media-object" alt="Photo of Dr. Lauren Healy" src="images/Lori.jpg">  
+		<img class="media-object" alt="Photo of Dr. Lauren Healy Scarpaci" src="images/Lori.jpg">  
 	</div> 
 	<div class="media-body"> 
-		<h4 class="media-heading">Dr. Lauren Healy</h4> 
+		<h4 class="media-heading">Dr. Lauren Healy Scarpaci</h4> 
 		<p>Dr. Healy is a native of Wilmington.  She attended Archmere Academy for high school and then received her Bachelor of Arts in Psychology at Boston College.  She went on to attend medical school at Thomas Jefferson Medical College and completed her pediatric residency at Emory University in Atlanta, Georgia.  Dr. Healy joined the Hockessin practice in 2000.  Her husband and three daughters keep her busy at home.  She enjoys jogging and weekends at the beach.</p>
 		<p>Dr. Healy is a board certified pediatrician and Fellow of the American Academy of Pediatrics.</p>
 	</div> 
@@ -34,7 +34,8 @@ title: Hockessin Doctors
 	</div> 
 	<div class="media-body"> 
 		<h4 class="media-heading">Dr. Amy Chang</h4> 
-		<p>Dr. Amy Chang is a board certified pediatrician and Fellow of the American Academy of Pediatrics who hails from Long Island, NY.  She earned both her BA in Psychology and her MD degree from The George Washington University in Washington, DC, and then completed her pediatric internship and residency at Thomas Jefferson University/AI duPont Hospital for Children here in Wilmington.  She joined the Hockessin practice in 2004.  Dr. Chang is active in her church, and enjoys reading, traveling, and all things musical.</p>
+		<p>Dr. Amy Chang hails from Long Island, NY.  She earned both her BA in Psychology and her MD degree from The George Washington University in Washington, DC, and then completed her pediatric internship and residency at Thomas Jefferson University/AI duPont Hospital for Children here in Wilmington.  She joined the Hockessin practice in 2004.  Dr. Chang is active in her church, and enjoys reading, traveling, and all things musical. 
+</p><p>Dr. Chang is a board certified pediatrician and Fellow of the American Academy of Pediatrics.</p>
 	</div> 
 
 </div>

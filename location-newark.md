@@ -37,7 +37,7 @@ Fax: 302-368-4742
 * Friday:   8:30am to 5:00pm
 * Saturday:   9:00am to 12:00pm*
 
-Phones turn off at 5:00. We apologize that we do not stay into the evening unless the sick patient volume exceeds our daytime hours. Please call to schedule your child's sick visit as early in the day as possible. Thank you.
+Our answering service starts taking our phone calls at 5pm. We stay in the evening only if our sick patient volume exceeds our daytime hours. Please call to schedule your child's sick visit as early in the day as possible. Thank you.
 
 *Saturday we see acute sick appointments only. Patients of both offices are seen at the on-call doctor's site, alternating between Newark and Hockessin. Please call your doctor's office number starting at 8:30am for an appointment. 
 

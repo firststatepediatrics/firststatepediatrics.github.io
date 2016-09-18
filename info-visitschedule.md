@@ -21,9 +21,8 @@ We strongly adhere to the preventive health recommendations of the American Acad
 * 30 months (developmental screening)
 * 36 months
 * 4 years (vaccines: Kinrix* and Proquad*)
-* 5 years 
-* annual checkup from age 6 - 10 years
-* 11 years (vaccines: Tdap, Menactra; Gardasil for girls at 11 or older)
+* annual checkup from age 5 - 10 years
+* 11 years (vaccines: Tdap, Menactra; Gardasil at 11 or older)
 * annual checkup from age 12 - 21 years
 
 *Pentacel: DTaP, polio, HIB combination vaccine.
