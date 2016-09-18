@@ -22,7 +22,7 @@ title: Newark Doctors
 	</div> 
 	<div class="media-body"> 
 		<h4 class="media-heading">Dr. Kathleen Leach</h4> 
-		<p>Dr. Leach is a native of Delaware County, PA. She received her bachelor of science degree in cultural anthropology from Bates College and completed her pre-medicine studies at the University of Maine. Dr. Leach studied medicine at Drexel University College of Medicine and attended the Thomas Jefferson University / A. I. duPont Hospital for Children pediatric residency. She joined the practice in 2006. In her spare time Dr. Leach enjoys bicycling and skiing. Dr Leach and her husband welcomed their first child, a baby boy, in March 2011.</p>
+		<p>Dr. Leach grew up in suburban Philadelphia. She received her Bachelor of Science degree from Bates College in Maine, and also studied at the University of Maine. Dr. Leach then attended Drexel University College of Medicine. She completed her pediatric residency at TJU / Alfred I. duPont Hospital for Children. Dr. Leach enjoys spending time with her husband and their son, and together they enjoy bicycling and skiing. She also enjoys throwing on the pottery wheel. She joined the practice in 2006.</p>
 		<p>Dr. Leach is a board certified pediatrician and Fellow of the American Academy of Pediatrics.</p>
 	</div> 
 
