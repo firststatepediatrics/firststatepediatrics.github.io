@@ -4,7 +4,7 @@ bodyclass: sub-page
 title: Well Infant/Child Visit Schedule
 ---
 
-We strongly adhere to the preventive health recommendations of the American Academy of Pediatrics, and the vaccination schedule of the CDC/ACIP (Advisory Committee on Immunization Practices). 
+We strongly adhere to the preventive health recommendations of the American Academy of Pediatrics, and the vaccination schedule of the CDC/ACIP (Advisory Committee on Immunization Practices). In addition to the vaccines below, we strongly recommend an annual flu vaccine for all children starting at age 6 months.
 
 * Birth: daily check in hospital (vaccine: hepatitis B) - we round daily at Christiana Hospital on our newborn patients on the post-partum unit.
 * 2-4 days after discharge
@@ -20,7 +20,7 @@ We strongly adhere to the preventive health recommendations of the American Acad
 * 24 months (catch-up vaccines if needed)
 * 30 months (developmental screening)
 * 36 months
-* 4 years (vaccines: Kinrix* and Proquad*)
+* 4 years (vaccines: Kinrix*, MMR, chicken pox)
 * annual checkup from age 5 - 10 years
 * 11 years (vaccines: Tdap, Menactra; Gardasil at 11 or older)
 * annual checkup from age 12 - 21 years
@@ -29,12 +29,8 @@ We strongly adhere to the preventive health recommendations of the American Acad
 
 *Kinrix: DTaP and IPV combination vaccine
 
-*Proquad: MMR and Varicella vaccine
-
 All scheduled vaccines are thimerosol-free. We prefer to use the available combination vaccines to reduce the total number of injections. When there are shortages we substitue the individual component vaccines.
 
-Vision screening, hearing screening, dipstick urinalysis, routine blood screening for anemia and lead exposure for infants, and cholesterol screening for adolescents, are performed or ordered per the guidelines of the American Academy of Pediatrics. 
-
-Annual influenza vaccine is strongly recommended for all children age 6 months and older.
+Vision screening, hearing screening, dipstick urinalysis, routine blood screening for anemia and lead exposure for infants, and cholesterol screening for adolescents, are performed or ordered as per the guidelines of the American Academy of Pediatrics. 
 
 Please request all school or daycare forms during your well child visit. There is a nominal charge for forms requested in between visits.
