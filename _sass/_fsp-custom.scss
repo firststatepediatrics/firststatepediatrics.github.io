@@ -107,9 +107,13 @@ h1.title {
 		
 //home adjustments
 body.site-home {
-	background-image: url("../images/snowman_test.png");
+	background-image: url("../images/snowman.jpg");
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: 70% top;
+	@media (min-width: 800px){
+		background-position: right top;
+	}
 	.navbar-default{
 		background-color: #f8f8f8;
 		background-image: none;
@@ -199,7 +203,22 @@ snowing
 		transform:translateX(0px);
 	}
 }
-
+/*.snowman {
+	position: fixed;
+	top: 90px;
+	height: 82%;
+	width: 90%;
+	right: 5%;
+	background-size: 100% auto;
+	background-image: url(../images/snowman_solo.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	@media (min-width: $screen-md-min){
+		width: 60%;
+		right: 10%;
+		background-size: 100% auto;
+	}
+}*/
 .snowflake{
 	position:fixed;
 	top:-10%;
@@ -208,7 +227,9 @@ snowing
 	height: 60px;
 	background-color: transparent;
 	background-image: url(../images/snowflake_test.png);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
 	-webkit-user-select:none;
 	-moz-user-select:none;
 	-ms-user-select:none;
