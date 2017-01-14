@@ -1,3 +1,97 @@
+/* Math Mixins */
+@function pow($number, $exp) {
+  $value: 1;
+  @if $exp > 0 {
+    @for $i from 1 through $exp {
+      $value: $value * $number;
+    }
+  }
+  @else if $exp < 0 {
+    @for $i from 1 through -$exp {
+      $value: $value / $number;
+    }
+  }
+  @return $value;
+}
+
+@function fact($number) {
+  $value: 1;
+  @if $number > 0 {
+    @for $i from 1 through $number {
+      $value: $value * $i;
+    }
+  }
+  @return $value;
+}
+
+@function pi() {
+  @return 3.14159265359;
+}
+
+@function rad($angle) {
+  $unit: unit($angle);
+  $unitless: $angle / ($angle * 0 + 1);
+  // If the angle has 'deg' as unit, convert to radians.
+  @if $unit == deg {
+    $unitless: $unitless / 180 * pi();
+  }
+  @return $unitless;
+}
+
+@function sin($angle) {
+  $sin: 0;
+  $angle: rad($angle);
+  // Iterate a bunch of times.
+  @for $i from 0 through 10 {
+    $sin: $sin + pow(-1, $i) * pow($angle, (2 * $i + 1)) / fact(2 * $i + 1);
+  }
+  @return $sin;
+}
+
+@function cos($angle) {
+  $cos: 0;
+  $angle: rad($angle);
+  // Iterate a bunch of times.
+  @for $i from 0 through 10 {
+    $cos: $cos + pow(-1, $i) * pow($angle, 2 * $i) / fact(2 * $i);
+  }
+  @return $cos;
+}
+
+@function tan($angle) {
+  @return sin($angle) / cos($angle);
+}
+/* end of math */
+/* calculate the bloomed petal position */
+@function bloomx($petalnum) {
+	$angle: ((($petalnum  - 1) * 30)) * 1deg;
+	@debug $petalnum $angle;
+  $x: -25 + 55 + 18 + (43 * cos($angle));
+  $xpx: $x * 1px;
+  @return $xpx;
+}
+
+@function bloomy($petalnum) {
+	$angle: ((($petalnum - 1) * 30))  * 1deg; 
+  $y: -13+ 56 + 18 - (43 * sin($angle));
+  $ypx: $y * 1px;
+  @return $ypx;
+}
+// calculate the rotation
+@function petalangle($petalnum){
+	$angle: (($petalnum - 1) * 30) * -1deg;
+	@return $angle;
+}
+
+@mixin bloomedpetal($petalnum){
+  left: bloomx($petalnum);
+  top: bloomy($petalnum);
+	-ms-transform:rotate(petalangle($petalnum));
+	-moz-transform:rotate(petalangle($petalnum));
+	-webkit-transform:rotate(petalangle($petalnum));
+	transform:rotate(petalangle($petalnum));
+}
+
 body {
 	padding-top: 90px;
 	background-image: url("../images/fsp-home-logo-bg.gif");
@@ -107,18 +201,16 @@ h1.title {
 		
 //home adjustments
 body.site-home {
-	background-image: url("../images/snowman.jpg");
+	background-image: url("../images/grass_w_hill.png");
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: 70% top;
-	@media (min-width: 800px){
-		background-position: right top;
-	}
+	background-position: center top;
+	background-color: #0178BC;
 	.navbar-default{
 		background-color: #f8f8f8;
 		background-image: none;
 		.navbar-header{
-			background-color: tranparent;
+			background-color: transparent;
 			background-image: none;
 		}
 	}
@@ -156,74 +248,15 @@ body.site-home {
 
 /*
 ==============================================
-snowing
+blooming
 ==============================================
 */
-@-webkit-keyframes snowflakes-fall{
-	0%{
-		top:-10%;
-	}
-	100%{
-		top:100%;
-	}
-}
 
-@-webkit-keyframes snowflakes-shake{
-	0%{
-		-webkit-transform:translateX(0px);
-		transform:translateX(0px);
-	}
-	50%{
-		-webkit-transform:translateX(80px);
-		transform:translateX(80px);
-	}
-	100%{
-		-webkit-transform:translateX(0px);
-		transform:translateX(0px);
-	}
-}
-
-@keyframes snowflakes-fall{
-	0%{
-		top:-10%;
-	}
-	100%{
-		top:100%;
-	}
-}
-
-@keyframes snowflakes-shake{
-	0%{
-		transform:translateX(0px);
-	}
-	50%{
-		transform:translateX(80px);
-	}
-	100%{
-		transform:translateX(0px);
-	}
-}
-/*.snowman {
-	position: fixed;
-	top: 90px;
-	height: 82%;
-	width: 90%;
-	right: 5%;
-	background-size: 100% auto;
-	background-image: url(../images/snowman_solo.png);
-	background-repeat: no-repeat;
-	background-position: top right;
-	@media (min-width: $screen-md-min){
-		width: 60%;
-		right: 10%;
-		background-size: 100% auto;
-	}
-}*/
-.snowflake{
+.flower{
 	position:fixed;
 	top:-10%;
 	z-index: 999;
-	width: 60px;
+	width: 100px;
 	height: 60px;
 	background-color: transparent;
 	background-image: url(../images/snowflake_test.png);
@@ -247,63 +280,313 @@ snowing
 	animation-play-state:running,running;
 }
 
-.snowflake:nth-of-type(0){
-	left:1%;
-	-webkit-animation-delay:0s,0s;
-	animation-delay:0s,0s;
+
+@keyframes bloom {
+  0%   { 
+  	transform: scale(0);    
+  }
+  100% { 
+  	transform: scale(1);  
+  }
 }
-.snowflake:nth-of-type(1){
-	left:10%;
-	-webkit-animation-delay:1.8s,1.8s;
-	animation-delay:1.8s,1.8s;
-	background-image: url(../images/snowflake_test2.png);
+@keyframes rotate {
+  0%   { 
+  	transform: scale(0);    
+  }
+  100% { 
+  	transform: scale(1);  
+  }
 }
-.snowflake:nth-of-type(2){
-	left:20%;
-	-webkit-animation-delay:6s,.5s;
-	animation-delay:6s,.5s;
-	background-image: url(../images/snowflake_test3.png);
+@keyframes rotate30 {
+  0%   { 
+  //cos(45deg)
+  //x = cx + r * cos(30)
+  //x = 73 + 18 * cos(30);
+  	//transform: translate(-4px,31px) scale(0) rotate(30deg);
+  	transform: translate(73 + 18 * cos(30),75 + 18 * cos(30)) scale(0) rotate(30deg);    
+  }
+  100% { 
+  	transform: translate(0,0) scale(1) rotate(30deg);  
+  }
 }
-.snowflake:nth-of-type(3){
-	left:30%;
-	-webkit-animation-delay:4s,2s;
-	animation-delay:4s,2s;
-	background-image: url(../images/snowflake_test4.png);
+
+@keyframes rotate60 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(60deg);  
+  }
 }
-.snowflake:nth-of-type(4){
-	left:40%;
-	-webkit-animation-delay:2s,2s;
-	animation-delay:2s,2s;
-	background-image: url(../images/snowflake_test5.png);
+
+@keyframes rotate90 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(90deg);  
+  }
 }
-.snowflake:nth-of-type(5){
-	left:50%;
-	-webkit-animation-delay:8s,3s;
-	animation-delay:8s,3s;
-	background-image: url(../images/snowflake_test6.png);
+
+@keyframes rotate120 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(120deg);  
+  }
 }
-.snowflake:nth-of-type(6){
-	left:60%;
-	-webkit-animation-delay:6s,2s;
-	animation-delay:6s,2s;
-	//background-image: url(../images/KAL.jpg);
+
+@keyframes rotate150 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(150deg);  
+  }
 }
-.snowflake:nth-of-type(7){
-	left:70%;
-	-webkit-animation-delay:2.5s,1s;
-	animation-delay:2.5s,1s;
-	background-image: url(../images/snowflake_test7.png);
+
+@keyframes rotate180 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(180deg);  
+  }
 }
-.snowflake:nth-of-type(8){
-	left:80%;
-	-webkit-animation-delay:1s,0s;
-	animation-delay:1s,0s;
-	background-image: url(../images/snowflake_test8.png);
+
+@keyframes rotate210 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(210deg);  
+  }
 }
-.snowflake:nth-of-type(9){
-	left:90%;
-	-webkit-animation-delay:3s,1.5s;
-	animation-delay:3s,1.5s;
-	background-image: url(../images/snowflake_test9.png);
+
+@keyframes rotate240 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(240deg);  
+  }
 }
+
+@keyframes rotate270 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(270deg);  
+  }
+}
+
+@keyframes rotate300 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(300deg);  
+  }
+}
+
+@keyframes rotate330 {
+  0%   { 
+  	transform: rotate(0);    
+  }
+  100% { 
+  	transform: rotate(330deg);  
+  }
+}
+.trig{
+	position: absolute;
+	background: red;
+	width: 10px;
+	height: 10px;
+}
+.flower_container{
+	position:relative;
+	margin: 0;
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	border: 1px pink solid;
+}
+.stigma{
+	background-color:#ff0;
+	border:5px solid #dd0;
+	position:absolute;
+	z-index:2;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	height:36px;
+	width:36px;
+	border-radius:36px;
+	top:56px;
+	left:55px;
+}
+.petal{
+	height:1px;
+	width:1px;
+	top: 73px;
+	left: 72px;
+	position:absolute;
+	background-color:#fff;
+	border:0px solid #dfdfdf;
+	-moz-border-radius: 25px / 13px;
+	-webkit-border-radius: 25px / 13px;
+	border-radius: 25px / 13px;
+	z-index:2;
+	border-width:2px 0px 0px 2px;	
+}
+.petal-bloomed{
+	height:26px;
+	width:50px;
+	border-width:0 2px 2px 0px;
+	/*animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-play-state: running;*/
+}
+.flower_container:hover .petal{
+	height:35px;
+	width:35px;
+}
+.num_1{
+	@extend .petal-bloomed;
+	display: block;
+	@include bloomedpetal(1);
+}
+.flower_container:hover .petal.num_1{
+	top:20px;
+	left:20px;
+}
+.num_2{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(2);
+}
+.flower_container:hover .petal.num_2{
+top:11px;left:45px;
+}
+.num_3{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(3);
+}
+.flower_container:hover .petal.num_3{
+top:20px;left:70px;
+}
+.num_4{
+	@extend .petal-bloomed;
+	display: block;
+	@include bloomedpetal(4);
+}
+.flower_container:hover .petal.num_4{
+top:45px;left:77px;
+}
+.num_5{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(5);
+}
+.flower_container:hover .petal.num_5{
+top:70px;left:70px;
+}
+.num_6{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(6);
+}
+.flower_container:hover .petal.num_6{
+top:79px;left:45px;
+}
+.num_7{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(7);
+}
+.flower_container:hover .petal.num_7{
+top:70px;left:20px;
+}
+.num_8{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(8);
+}
+.num_9{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(9);
+}
+.num_10{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(10);
+}
+.num_11{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(11);
+}
+.num_12{
+	@extend .petal-bloomed;
+	
+	@include bloomedpetal(12);
+}
+.flower_container:hover .petal.num_8{
+top:45px;left:13px;
+}
+
+.stem{
+height:133px;
+width:67px;
+position:absolute;
+top:60px;
+left:20px;
+z-index:0;
+border-radius:0px 100px 100px 0px;
+background-color:#090;
+z-index:0;
+}
+.stem_mask{
+height:136px;
+width:67px;
+position:absolute;
+top:60px;
+left:10px;
+z-index:1;
+border-radius:0px 80px 80px 0px;
+background-color:#00f;
+opacity:1;
+height:155px;top:50px;
+}
+.leaf{background-color:#090;position:absolute;height:10px;width:20px;border-radius:20px 0px 20px 0px;z-index:1;}
+.leaf_1{top:130px;left:57px;}
+.leaf_2{top:114px;left:87px;}
+h2.message{font-family:'helvetica';font-size:14px;font-weight:normal;text-align:center;margin-top:20px;}
+
+
+/*	flower updates	*/
+.petal{
+transition: all 1s ease-in;
+-moz-transition: all 1s ease-in;
+-webkit-transition: all 1s ease-in;
+-o-transition: all 1s ease-in;
+}
+.petal.num_1,.petal.num_3,.petal.num_5,.petal.num_7,.petal.num_9,.petal.num_11{background-color:#f3f3f3;}
+.flower_container:hover .petal.num_1{top:45px;left:13px;/**/transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg);/**/}
+.flower_container:hover .petal.num_2{top:20px;left:20px;/**/transform:rotate(0deg);-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);/**/}
+.flower_container:hover .petal.num_3{top:11px;left:45px;/**/transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg);/**/}
+.flower_container:hover .petal.num_4{top:20px;left:70px;/**/transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg);/**/}
+.flower_container:hover .petal.num_5{top:45px;left:77px;/**/transform:rotate(135deg);-ms-transform:rotate(135deg);-moz-transform:rotate(135deg);-webkit-transform:rotate(135deg);-o-transform:rotate(135deg);/**/}
+.flower_container:hover .petal.num_6{top:70px;left:70px;/**/transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);/**/}
+.flower_container:hover .petal.num_7{top:79px;left:45px;/**/transform:rotate(225deg);-ms-transform:rotate(225deg);-moz-transform:rotate(225deg);-webkit-transform:rotate(225deg);-o-transform:rotate(225deg);/**/}
+.flower_container:hover .petal.num_8{top:70px;left:20px;/**/transform:rotate(270deg);-ms-transform:rotate(270deg);-moz-transform:rotate(270deg);-webkit-transform:rotate(270deg);-o-transform:rotate(270deg);/**/}
+
+
+
 
