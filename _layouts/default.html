@@ -9,9 +9,10 @@
 
     <div id="main-content" class="container">
     		{% capture site_announcement %}{% include {{ page.announcement }} %}{% endcapture %}
+    		{% capture site_announcement %}{{ site_announcement | markdownify }}{% endcapture %}
     		{% if site_announcement.size > 10 %}
         	<div class="announcement">
-    		    {{ site_announcement | markdownify }}
+    		    {{ site_announcement }}
     		    </div>
     		{% endif %}
     		{% include jumpnav.html %}
