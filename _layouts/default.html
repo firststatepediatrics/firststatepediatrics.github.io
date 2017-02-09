@@ -8,6 +8,12 @@
     {% include nav.html %}
 
     <div id="main-content" class="container">
+    		{% capture site_announcement %}{% include {{ page.announcement }} %}{% endcapture %}
+    		{% if site_announcement.size > 10 %}
+        	<div class="announcement">
+    		    {{ site_announcement | markdownify }}
+    		    </div>
+    		{% endif %}
     		{% include jumpnav.html %}
     		<h1 class="page-title">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
         {{ content }}
