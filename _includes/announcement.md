@@ -1,2 +1,2 @@
 [comment]: <> (Enter text below to display a message on all pages of the FSP website)
-#### Due to the anticipated inclement weather, First State Pediatrics Hockessin and Newark will be closed the AM hours of March 14th.
+#### Due to inclement weather, our Hockessin and Newark offices will be closed today, March 14th.
