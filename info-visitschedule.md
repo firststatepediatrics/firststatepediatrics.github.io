@@ -35,8 +35,7 @@ We strongly adhere to the preventive health recommendations of the American Acad
 * 18 year old vaccine: Tdap
 
 *Pentacel: DTaP, polio, HIB combination vaccine.
-
-All scheduled vaccines are thimerosol-free. We prefer to use the available combination vaccines to reduce the total number of injections. When there are shortages we substitue the individual component vaccines.
+We use the available combination vaccines to reduce the total number of injections. When there are shortages we substitue the individual component vaccines. All scheduled vaccines are thimerosol-free. 
 
 Vision screening, hearing screening, dipstick urinalysis, routine blood screening for anemia and lead exposure for infants, and cholesterol screening for adolescents, are performed or ordered as per the guidelines of the American Academy of Pediatrics. 
 
