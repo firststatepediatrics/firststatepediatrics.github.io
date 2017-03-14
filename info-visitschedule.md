@@ -43,4 +43,4 @@ If you need to reschedule your child's physical please call at least 1-2 busines
 
 Please request all school or daycare forms during your well child visit. There is a nominal charge for forms requested in between visits.
 
-<div style="overflow:auto;-webkit-overflow-scrolling:touch"><iframe src="https://www.cdc.gov/vaccines/schedules/easy-to-read/adult-shell-easyread.html" width="100%" height="1200px" frameborder="0" scrolling="auto" title="Easy-to-Read Schedule for Adults, by Age">Easy-to-Read Schedule for Adults, by Age</iframe></div>
+<div style="overflow:auto;-webkit-overflow-scrolling:touch"><iframe src="https://www.cdc.gov/vaccines/schedules/easy-to-read/adolescent-shell-easyread.html" width="100%" height="1200px" frameborder="0" scrolling="auto" title="Easy-to-Read Schedule for Preteens and Teens, 7-18 Years">Easy-to-Read Schedule for Preteens and Teens, 7-18 Years</iframe></div>
