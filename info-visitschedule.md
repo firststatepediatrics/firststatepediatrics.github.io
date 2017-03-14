@@ -33,4 +33,6 @@ All scheduled vaccines are thimerosol-free. We prefer to use the available combi
 
 Vision screening, hearing screening, dipstick urinalysis, routine blood screening for anemia and lead exposure for infants, and cholesterol screening for adolescents, are performed or ordered as per the guidelines of the American Academy of Pediatrics. 
 
+If you need to reschedule your child's physical please call at least 1-2 business days before the scheduled appointment to avoid a $25 "No Show" Fee. We consider dismissal if a family has 3 "No Shows".
+
 Please request all school or daycare forms during your well child visit. There is a nominal charge for forms requested in between visits.
