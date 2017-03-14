@@ -7,16 +7,17 @@ title: Insurance Information
 We currently accept the following insurance plans:
 
 * Aetna
-* Blue Cross/Blue Shield
-* BC/BS state products (such as Empire)
+* Blue Cross/Blue Shield (most state plans)
 * Cigna
 * Coventry
-* Delaware Medicaid / Diamond State Partners
+* Delaware Medicaid 
+* Geisinger / Christiana employee plans
+* Highmark Blue Cross/Blue Shield
 * Highmark Health Options 
-* coming soon: Devon Health - not yet accepted
 * Independence Blue Cross
 * Keystone/Amerihealth
+* Personal Choice
 * Tricare
 * United Health Care Community Plan
 * United Health Care
-* not on this list? please inquire as we probably are able to take your insurance.
+* Not on this list? Please inquire as we may accept your insurance.
