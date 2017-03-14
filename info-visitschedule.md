@@ -4,30 +4,37 @@ bodyclass: sub-page
 title: Well Infant/Child Visit Schedule
 ---
 
-We strongly adhere to the preventive health recommendations of the American Academy of Pediatrics, and the vaccination schedule of the CDC/ACIP (Advisory Committee on Immunization Practices). In addition to the vaccines below, we strongly recommend an annual flu vaccine for all children starting at age 6 months.
+We strongly adhere to the preventive health recommendations of the American Academy of Pediatrics, and the vaccination schedule of the CDC/ACIP (Advisory Committee on Immunization Practices). In addition to the vaccines below, we strongly recommend annual flu vaccination for all children starting at age 6 months.
 
-* Birth: daily check in hospital (vaccine: hepatitis B) - we round daily at Christiana Hospital on our newborn patients on the post-partum unit.
+[2017 Recommended Immunizations for Children from Birth Through 6 Years Old - CDC/ACIP OFFICIAL LINK](https://www.cdc.gov/vaccines/parents/downloads/parent-ver-sch-0-6yrs.pdf)
+
+<div style="overflow:auto;-webkit-overflow-scrolling:touch"><iframe src="https://www.cdc.gov/vaccines/schedules/easy-to-read/child-shell-easyread.html" width="100%" height="1200px" frameborder="0" scrolling="auto" title="Easy-to-Read Schedule for Children, Birth through 6 Years">Easy-to-Read Schedule for Children, Birth through 6 Years</iframe></div>
+
+### WELL CHILD VISIT AND VACCINE SCHEDULE:
+* After delivery: we round daily at Christiana Hospital / hepatitis B vaccine given in hospital
 * 2-4 days after discharge
 * 1-2 weeks later - weight check
-* 1 month (vaccine: hepatitis B - or may give with 2 month vaccines)
-* 2 months (vaccines: Pentacel*, pneumococcal, oral rotavirus)
-* 4 months (vaccines: Pentacel*, pneumococcal, oral rotavirus)
-* 6 months (vaccines: Pentacel*, pneumococcal, oral rotavirus)
-* 9 months (vaccine: hepatitis B - or may give with 6 month vaccines)
-* 12 months (vaccines: MMR, chicken pox, hepatitis A)
-* 15 months (vaccines: Pentacel*, pneumococcal)
-* 18 months (vaccine: hepatitis A; developmental screening)
-* 24 months (catch-up vaccines if needed)
-* 30 months (developmental screening)
-* 36 months
-* 4 years (vaccines: Kinrix*, MMR, chicken pox)
-* annual checkup from age 5 - 10 years
-* 11 years (vaccines: Tdap, Menactra; Gardasil at 11 or older)
-* annual checkup from age 12 - 21 years
+* 1 month
+* 2 months - vaccines: Pentacel*, Prevnar, Rotateq(oral)
+*   (hepatitis B vaccine #2 given at 1 or 2 months)
+* 4 months - vaccines: Pentacel, Prevnar, Rotateq(oral)
+* 6 months - vaccines: Pentacel, Prevnar, Rotateq(oral)
+* 9 months 
+*   (hepatitis B vaccine #3 given at 6 or 9 months)
+* 12 months - vaccines: MMR, chicken pox, hepatitis A
+* 15 months - vaccines: Pentacel, Prevnar
+* 18 months - vaccine: hepatitis A; developmental screening
+* 24 months 
+* 30 months - developmental screening
+* 36 months and on: Annual Well Child Visit until age 21
+* 4 year old vaccines: DTaP/Polio, MMR, chicken pox
+* 11 year old vaccines: Tdap, Menactra
+* 11 years or older: Gardasil 9 (2 doses 6 months apart under age 15, 3 doses over age 15) 
+* 16 years vaccine: Menactra
+* 16-18 years vaccine: Trumemba (2 doses 6 months apart)
+* 18 year old vaccine: Tdap
 
 *Pentacel: DTaP, polio, HIB combination vaccine.
-
-*Kinrix: DTaP and IPV combination vaccine
 
 All scheduled vaccines are thimerosol-free. We prefer to use the available combination vaccines to reduce the total number of injections. When there are shortages we substitue the individual component vaccines.
 
