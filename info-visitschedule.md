@@ -6,9 +6,9 @@ title: Well Infant/Child Visit Schedule
 
 We strongly adhere to the preventive health recommendations of the American Academy of Pediatrics, and the vaccination schedule of the CDC/ACIP (Advisory Committee on Immunization Practices). In addition to the vaccines below, we strongly recommend annual flu vaccination for all children starting at age 6 months.
 
-[2017 Recommended Immunizations for Children from Birth Through 6 Years Old - CDC/ACIP OFFICIAL LINK](https://www.cdc.gov/vaccines/parents/downloads/parent-ver-sch-0-6yrs.pdf)
+[Recommended Immunizations for Children from Birth Through 6 Years Old - CDC/ACIP OFFICIAL LINK](https://www.cdc.gov/vaccines/parents/downloads/parent-ver-sch-0-6yrs.pdf)
 
-<div style="overflow:auto;-webkit-overflow-scrolling:touch"><iframe src="https://www.cdc.gov/vaccines/schedules/easy-to-read/child-shell-easyread.html" width="100%" height="1200px" frameborder="0" scrolling="auto" title="Easy-to-Read Schedule for Children, Birth through 6 Years">Easy-to-Read Schedule for Children, Birth through 6 Years</iframe></div>
+[Recommended Immunizations for Preteens and Teens, 7-18 Years - CDC/ACIP OFFICIAL LINK](https://www.cdc.gov/vaccines/schedules/easy-to-read/adolescent-shell-easyread.html)
 
 ### WELL CHILD VISIT AND VACCINE SCHEDULE:
 * After delivery: we round daily at Christiana Hospital / hepatitis B vaccine given in hospital
@@ -42,5 +42,3 @@ Vision screening, hearing screening, dipstick urinalysis, routine blood screenin
 If you need to reschedule your child's physical please call at least 1-2 business days before the scheduled appointment to avoid a $25 "No Show" Fee. We consider dismissal if a family has 3 "No Shows".
 
 Please request all school or daycare forms during your well child visit. There is a nominal charge for forms requested in between visits.
-
-<div style="overflow:auto;-webkit-overflow-scrolling:touch"><iframe src="https://www.cdc.gov/vaccines/schedules/easy-to-read/adolescent-shell-easyread.html" width="100%" height="1200px" frameborder="0" scrolling="auto" title="Easy-to-Read Schedule for Preteens and Teens, 7-18 Years">Easy-to-Read Schedule for Preteens and Teens, 7-18 Years</iframe></div>
