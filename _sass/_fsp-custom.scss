@@ -104,7 +104,16 @@ h1.title {
 		}
 	}
 }
-		
+
+//site announcement block
+.announcement {
+	@extend .alert;
+	@extend .alert-warning;
+	background-color:rgba(252, 248, 227, 0.85);
+	position: relative;
+	z-index: 1025;
+}
+
 //home adjustments
 body.site-home {
 	background-image: url("../images/clouds-illustration-background-export.jpg");
