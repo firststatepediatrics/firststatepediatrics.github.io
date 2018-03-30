@@ -113,15 +113,12 @@ h1.title {
 	position: relative;
 	z-index: 1025;
 }
+
 //home adjustments
 body.site-home {
-	background-image: url("../images/snowman.jpg");
+	background-image: url("../images/clouds-illustration-background-export.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: 70% top;
-	@media (min-width: 800px){
-		background-position: right top;
-	}
 	.navbar-default{
 		background-color: #f8f8f8;
 		background-image: none;
@@ -132,6 +129,13 @@ body.site-home {
 	}
 	h1.page-title {
 		@extend .sr-only;
+	}
+	.announcement {
+		@extend .alert;
+		@extend .alert-warning;
+		background-color:rgba(252, 248, 227, 0.85);
+		position: relative;
+		z-index: 1025;
 	}
 	footer {
 		position: relative;
@@ -157,154 +161,147 @@ body.site-home {
 
 /*
 ==============================================
-snowing
+floating
 ==============================================
 */
-@-webkit-keyframes snowflakes-fall{
-	0%{
-		top:-10%;
-	}
-	100%{
-		top:100%;
-	}
+
+.floating1{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 6.5s;	
+	-webkit-animation-duration: 6.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes snowflakes-shake{
-	0%{
-		-webkit-transform:translateX(0px);
-		transform:translateX(0px);
-	}
-	50%{
-		-webkit-transform:translateX(80px);
-		transform:translateX(80px);
-	}
-	100%{
-		-webkit-transform:translateX(0px);
-		transform:translateX(0px);
-	}
+.floating2{
+	animation-name: floating2;
+	-webkit-animation-name: floating2;
+
+	animation-duration: 6s;	
+	-webkit-animation-duration: 6s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
-@keyframes snowflakes-fall{
-	0%{
-		top:-10%;
-	}
-	100%{
-		top:100%;
-	}
+.floating3{
+	animation-name: floating3;
+	-webkit-animation-name: floating3;
+
+	animation-duration: 6.5s;	
+	-webkit-animation-duration: 6.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 }
 
-@keyframes snowflakes-shake{
-	0%{
-		transform:translateX(0px);
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
 	}
-	50%{
-		transform:translateX(80px);
-	}
-	100%{
-		transform:translateX(0px);
-	}
-}
-/*.snowman {
-	position: fixed;
-	top: 90px;
-	height: 82%;
-	width: 90%;
-	right: 5%;
-	background-size: 100% auto;
-	background-image: url(../images/snowman_solo.png);
-	background-repeat: no-repeat;
-	background-position: top right;
-	@media (min-width: $screen-md-min){
-		width: 60%;
-		right: 10%;
-		background-size: 100% auto;
-	}
-}*/
-.snowflake{
-	position:fixed;
-	top:-10%;
-	z-index: 999;
-	width: 60px;
-	height: 60px;
-	background-color: transparent;
-	background-image: url(../images/snowflake_test.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none;
-	cursor:default;
-	-webkit-animation-name:snowflakes-fall,snowflakes-shake;
-	-webkit-animation-duration:10s,3s;
-	-webkit-animation-timing-function:linear,ease-in-out;
-	-webkit-animation-iteration-count:infinite,infinite;
-	-webkit-animation-play-state:running,running;
-	animation-name:snowflakes-fall,snowflakes-shake;
-	animation-duration:10s,3s;
-	animation-timing-function:linear,ease-in-out;
-	animation-iteration-count:infinite,infinite;
-	animation-play-state:running,running;
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
 }
 
-.snowflake:nth-of-type(0){
-	left:1%;
-	-webkit-animation-delay:0s,0s;
-	animation-delay:0s,0s;
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
 }
-.snowflake:nth-of-type(1){
-	left:10%;
-	-webkit-animation-delay:1.8s,1.8s;
-	animation-delay:1.8s,1.8s;
-	background-image: url(../images/snowflake_test2.png);
+
+@keyframes floating2 {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(6%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
 }
-.snowflake:nth-of-type(2){
-	left:20%;
-	-webkit-animation-delay:6s,.5s;
-	animation-delay:6s,.5s;
-	background-image: url(../images/snowflake_test3.png);
+
+@-webkit-keyframes floating2 {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(6%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
 }
-.snowflake:nth-of-type(3){
-	left:30%;
-	-webkit-animation-delay:4s,2s;
-	animation-delay:4s,2s;
-	background-image: url(../images/snowflake_test4.png);
+
+@keyframes floating3 {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(4.5%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
 }
-.snowflake:nth-of-type(4){
-	left:40%;
-	-webkit-animation-delay:2s,2s;
-	animation-delay:2s,2s;
-	background-image: url(../images/snowflake_test5.png);
+
+@-webkit-keyframes floating3 {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(4.5%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
 }
-.snowflake:nth-of-type(5){
-	left:50%;
-	-webkit-animation-delay:8s,3s;
-	animation-delay:8s,3s;
-	background-image: url(../images/snowflake_test6.png);
+
+.balloon{
+	position: absolute;
+	background-color: transparent; 
+	background-image: url(../images/hot-air-balloon-test.png);
+	background-size: 100% 100%;
 }
-.snowflake:nth-of-type(6){
-	left:60%;
-	-webkit-animation-delay:6s,2s;
-	animation-delay:6s,2s;
-	//background-image: url(../images/KAL.jpg);
+#balloon1{
+	width: 75px;
+	height: 93px;
+	top: 50%;
+	left: 35%;
+	background-image: url(../images/balloon1.png);
+	@extend .floating3;	
 }
-.snowflake:nth-of-type(7){
-	left:70%;
-	-webkit-animation-delay:2.5s,1s;
-	animation-delay:2.5s,1s;
-	background-image: url(../images/snowflake_test7.png);
+#balloon2{
+	width: 100px;
+	height: 124px;
+	top: 30%;
+	left: 10%;
+	background-image: url(../images/balloon2.png);
+	@extend .floating2;	
 }
-.snowflake:nth-of-type(8){
-	left:80%;
-	-webkit-animation-delay:1s,0s;
-	animation-delay:1s,0s;
-	background-image: url(../images/snowflake_test8.png);
-}
-.snowflake:nth-of-type(9){
-	left:90%;
-	-webkit-animation-delay:3s,1.5s;
-	animation-delay:3s,1.5s;
-	background-image: url(../images/snowflake_test9.png);
+#balloon3{
+	width: 200px;
+	height: 256px;
+	@media (min-width: $screen-sm-min - 100) {
+		width: 330px;
+		height: 422px;
+	}
+	top: 20%;
+	right: 15%;
+	background-image: url(../images/fsp-balloon.png);
+	@extend .floating1;	
 }
 
