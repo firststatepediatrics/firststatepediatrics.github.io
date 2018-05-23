@@ -26,7 +26,10 @@ nav.navbar {
 	.btn-portal {
 		.btn {
 			font-size: 18px;
-			margin: 15px 0 0 0;
+			margin: 6px 0 0 15px;
+			@media (min-width: $screen-sm-min){
+			  margin: 15px 0 0 0;	
+			}
 		}
 	}
 }
