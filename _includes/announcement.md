@@ -1,2 +1,2 @@
 [comment]: <> (Enter text below to display a message on all pages of the FSP website)
-[Information about COVID-19](info-covid-19.html)
+**[INFORMATION ABOUT COVID-19](info-covid-19.html)**
