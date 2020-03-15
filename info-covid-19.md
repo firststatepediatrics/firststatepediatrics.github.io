@@ -1,7 +1,7 @@
 ---
 layout: default
 bodyclass: sub-page
-title: Covid-19 Information
+title: COVID-19 Information
 ---
 **MARCH 14, 2020**
 ## A MEMO REGARDING COVID-19 FROM YOUR DOCTORS AT FIRST STATE PEDIATRICS
