@@ -3,9 +3,8 @@ layout: default
 bodyclass: sub-page
 title: Covid-19 Information
 ---
-
+**MARCH 14, 2020**
 ## A MEMO REGARDING COVID-19 FROM YOUR DOCTORS AT FIRST STATE PEDIATRICS
-### MARCH 14, 2020:
 
 The novel coronavirus (COVID-19) was declared a pandemic by the WHO on Wednesday March 11, 2020. The United States and the state of Delaware declared State of Emergency statuses due to this pandemic on March 13. Governor Carney decided to close all Delaware public elementary and high schools from March 16 to March 27.
 We at First State Pediatrics are guided by our training and core values to continue to care for and assist our patient population during this pandemic. Our offices are still open to see your children and we will do so in the safest ways possible in accordance with current recommendations. For example, you will see us in gloves and facial masks in our offices and we will be implementing changes as outlined below.
