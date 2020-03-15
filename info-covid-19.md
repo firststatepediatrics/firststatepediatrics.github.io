@@ -10,6 +10,7 @@ The novel coronavirus (COVID-19) was declared a pandemic by the WHO on Wednesday
 We at First State Pediatrics are guided by our training and core values to continue to care for and assist our patient population during this pandemic. Our offices are still open to see your children and we will do so in the safest ways possible in accordance with current recommendations. For example, you will see us in gloves and facial masks in our offices and we will be implementing changes as outlined below.
 The information we are receiving about the pandemic is evolving day by day and we will do our best to share information as we have it. We encourage you to talk to your children about safety measures such as effective hand washing and avoidance of face-touching during this pandemic. For the time being, please review the following information and resources. Please check back here regularly for updates.
 Q&A:
+
 **1. What are the symptoms of COVID-19?**
 > Symptoms of COVID-19 include cough, runny nose, fever, chills, and shortness of breath – similar to the flu. In children the illness generally presents as a much milder illness but in more vulnerable populations the illness is more likely to be much more serious or deadly. A more vulnerable individual would be anyone who has underlying medical problems (eg: heart, lung, kidney, immune, including diabetes and asthma) or is an older person / senior citizen. In contrast, seasonal allergy symptoms can include sneezing, itchy watery eyes, an itchy congested or runny nose, post nasal drip, and cough without a fever.
 
