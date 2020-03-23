@@ -3,6 +3,20 @@ layout: default
 bodyclass: sub-page
 title: COVID-19 Information
 ---
+**MARCH 23, 2020**
+
+The COVID-19 pandemic is teaching us many lessons. Our priority remains the wellness and safety of our patents and staff. Social distancing will help "flatten the curve" of this pandemic and we salute your dedication to this mission. The AAP is recommending that children social distance and avoid playgrounds and playdates. We also want you to know we are still here for you and we are following these guidelines in the office:
+
+- We are staying in communication with health leaders in our state by attending teleconferences. We are following current recommendations to limit exposure to any illnesses while in our offices.
+- For in-person visits we require that ALL families call when they arrive in the parking lot to see if they can come into the building. Please let us know before coming in if you have known exposure to the COVID-19 virus or if you or anyone with you is not feeling well, or has a cough or fever.
+- We are limiting the number of families in each office at one time. Families are not allowed to wait in the waiting room. We will arrive your child and perform registration via the phone from the parking lot. Please do not bring guests or siblings with any symptoms of illness with you when you come for a Well Child appointment.
+- We are seeing patients int both offices for Well Child Checkup and vaccine appointments during the morning office hours. We are wearing appropriate masks and gloves at all times. We are not seeing any children in the office with illnesses until the Well visits are completed.
+- We are offering car-side in-person Sick Child appointments with the doctors (weather allowing) by appointment. We are also seeing patients inside for low risk Sick Child appointments but you will be ushered directly back into an examination room.
+- We are now offering remote Telemedicine appointments for Sick Child care only - not Well Child care at this time. Please see our new link on the webpage. Telemedicine appointments can be scheduled by calling the office. Several insurances including Highmark of Delaware, Aetna and Cigna are waiving co-pays and out-of-pocket deductible payments ("member cost sharing") for Telemedicine visits due to the pandemic.
+- The nurses and doctors will be wearing gloves, masks, and eye protection. We are not working if we have any symptoms of illness or unprotected exposure to COVID-19. We are also social distancing when not in the office.
+
+We are very grateful for your understanding and cooperation. Please contact us for any concerns about your children. Thank you.
+
 **MARCH 14, 2020**
 ## A MEMO REGARDING COVID-19 FROM YOUR DOCTORS AT FIRST STATE PEDIATRICS
 
@@ -50,11 +64,11 @@ The information we are receiving about the pandemic is evolving day by day and w
 > Please explore the following websites for more information about the virus:
 >  - [Kidshealth](https://kidshealth.org/en/parents/?search=y&q=Coronavirus+%28COVID-19%29+&datasource=kidshealth&start=0&rows=10&section=parents_teens_kids&lang=english) (includes information about talking to kids about COVID-19)
 >  - [Centers for Disease Control](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
->  - [American Academy of Pediatrics](https://www.healthychildren.org/english/health-issues/conditions/chest-lungs/pages/2019-novel-coronavirus.aspx) 
+>  - [American Academy of Pediatrics](https://www.healthychildren.org/english/health-issues/conditions/chest-lungs/pages/2019-novel-coronavirus.aspx)
 >  - [Delaware Department of Public Health](https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html)
 
 **9. COVID-19 has me feeling worried and anxious. What can I do?**
-> It is natural to have new feelings in the face of a pandemic. [Please explore these resources if you are experiencing anxiety.](https://adaa.org/finding-help/coronavirus-anxiety-helpful-resources)  We encourage you to focus on having fun with your children during the next few weeks. Establish a routine so that all know what to expect each day, despite school being closed.  Stay safe and talk to your doctor if you need assistance. 
+> It is natural to have new feelings in the face of a pandemic. [Please explore these resources if you are experiencing anxiety.](https://adaa.org/finding-help/coronavirus-anxiety-helpful-resources)  We encourage you to focus on having fun with your children during the next few weeks. Establish a routine so that all know what to expect each day, despite school being closed.  Stay safe and talk to your doctor if you need assistance.
 
 
 
