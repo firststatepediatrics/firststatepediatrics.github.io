@@ -9,6 +9,14 @@ body {
 //navbar scss
 .navbar-fixed-top {
 	border-width: 0 0 3px 0;
+	> .container {
+		@media (min-width: $screen-md-min){
+			width: auto;
+		}
+		@media (min-width: $screen-lg-min){
+    	width: 1170px;
+		}
+	}
 }
 nav.navbar {
 	font-size: 18px;
@@ -28,7 +36,7 @@ nav.navbar {
 			font-size: 18px;
 			margin: 6px 0 0 15px;
 			@media (min-width: $screen-sm-min){
-			  margin: 15px 0 0 10px;	
+			  margin: 15px 0 0 10px;
 			}
 		}
 	}
@@ -80,7 +88,7 @@ h1.title {
 			display: block;
 			margin: 0 auto;
 		}
-		
+
 	}
 }
 
@@ -99,7 +107,7 @@ h1.title {
 			> h5 {
 				text-align: center;
 				margin: 0;
-			}	
+			}
 		}
 	}
 }
@@ -159,7 +167,7 @@ body.site-home {
 				text-shadow: -1px -1px 0 #ddd,
 					1px -1px 0 #ddd,
 					-1px 1px 0 #ddd,
-					1px 1px 0 #ddd;  
+					1px 1px 0 #ddd;
 				margin-bottom: 5px;
 				@media (min-height: 340px) {
 					margin-bottom: 20px;
@@ -178,7 +186,7 @@ floating
 	animation-name: floating;
 	-webkit-animation-name: floating;
 
-	animation-duration: 6.5s;	
+	animation-duration: 6.5s;
 	-webkit-animation-duration: 6.5s;
 
 	animation-iteration-count: infinite;
@@ -189,7 +197,7 @@ floating
 	animation-name: floating2;
 	-webkit-animation-name: floating2;
 
-	animation-duration: 6s;	
+	animation-duration: 6s;
 	-webkit-animation-duration: 6s;
 
 	animation-iteration-count: infinite;
@@ -200,7 +208,7 @@ floating
 	animation-name: floating3;
 	-webkit-animation-name: floating3;
 
-	animation-duration: 6.5s;	
+	animation-duration: 6.5s;
 	-webkit-animation-duration: 6.5s;
 
 	animation-iteration-count: infinite;
@@ -209,79 +217,79 @@ floating
 
 @keyframes floating {
 	0% {
-		transform: translateY(0%);	
+		transform: translateY(0%);
 	}
 	50% {
-		transform: translateY(8%);	
-	}	
+		transform: translateY(8%);
+	}
 	100% {
 		transform: translateY(0%);
-	}			
+	}
 }
 
 @-webkit-keyframes floating {
 	0% {
-		-webkit-transform: translateY(0%);	
+		-webkit-transform: translateY(0%);
 	}
 	50% {
-		-webkit-transform: translateY(8%);	
-	}	
+		-webkit-transform: translateY(8%);
+	}
 	100% {
 		-webkit-transform: translateY(0%);
-	}			
+	}
 }
 
 @keyframes floating2 {
 	0% {
-		transform: translateY(0%);	
+		transform: translateY(0%);
 	}
 	50% {
-		transform: translateY(6%);	
-	}	
+		transform: translateY(6%);
+	}
 	100% {
 		transform: translateY(0%);
-	}			
+	}
 }
 
 @-webkit-keyframes floating2 {
 	0% {
-		-webkit-transform: translateY(0%);	
+		-webkit-transform: translateY(0%);
 	}
 	50% {
-		-webkit-transform: translateY(6%);	
-	}	
+		-webkit-transform: translateY(6%);
+	}
 	100% {
 		-webkit-transform: translateY(0%);
-	}			
+	}
 }
 
 @keyframes floating3 {
 	0% {
-		transform: translateY(0%);	
+		transform: translateY(0%);
 	}
 	50% {
-		transform: translateY(4.5%);	
-	}	
+		transform: translateY(4.5%);
+	}
 	100% {
 		transform: translateY(0%);
-	}			
+	}
 }
 
 @-webkit-keyframes floating3 {
 	0% {
-		-webkit-transform: translateY(0%);	
+		-webkit-transform: translateY(0%);
 	}
 	50% {
-		-webkit-transform: translateY(4.5%);	
-	}	
+		-webkit-transform: translateY(4.5%);
+	}
 	100% {
 		-webkit-transform: translateY(0%);
-	}			
+	}
 }
 
 .balloon{
 	position: absolute;
-	background-color: transparent; 
+	background-color: transparent;
 	background-image: url(../images/hot-air-balloon-test.png);
 	background-size: 100% 100%;
 }
@@ -291,7 +299,7 @@ floating
 	top: 50%;
 	left: 35%;
 	background-image: url(../images/balloon1.png);
-	@extend .floating3;	
+	@extend .floating3;
 }
 #balloon2{
 	width: 100px;
@@ -299,7 +307,7 @@ floating
 	top: 30%;
 	left: 10%;
 	background-image: url(../images/balloon2.png);
-	@extend .floating2;	
+	@extend .floating2;
 }
 #balloon3{
 	width: 200px;
@@ -311,6 +319,6 @@ floating
 	top: 20%;
 	right: 15%;
 	background-image: url(../images/fsp-balloon.png);
-	@extend .floating1;	
+	@extend .floating1;
 }
 
