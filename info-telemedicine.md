@@ -3,6 +3,8 @@ layout: default
 bodyclass: sub-page
 title: Telemedicine Information
 ---
+Telemedicine appointments can be scheduled by calling the office. Several insurances including Highmark of Delaware, Aetna and Cigna are waiving co-pays and out-of-pocket deductible payments ("member cost sharing") for Telemedicine visits due to the pandemic.
+
 If you have spoken to our front desk staff and have an appointment with a doctor for telemedicine, please follow these steps. It is helpful if you are prepared with a flashlight, a thermometer, a recent weight of your child, and are in a quiet, well lit location that has good WiFi. Take clear photos of any rashes on your child before the telemedicine visit using your smart device. You can share clear photos of a rash or skin lesion with us during the telemedicine visit if they are on your device.
 
 **Step 1:** **[Please log into the patient portal](https://17596.portal.athenahealth.com/)**, click on "MESSAGES" in the top toolbar. You must reply to the message asking for consent to telemedicine by replying with the words "I consent".
