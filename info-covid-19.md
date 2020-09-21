@@ -3,6 +3,18 @@ layout: default
 bodyclass: sub-page
 title: COVID-19 Information
 ---
+**SEPTEMBER 21, 2020**
+
+It is hard to believe that this pandemic has changed all of our lives so much in the last 6 months. We are so proud of the incredible resilience displayed by our amazing patients and families. In addition we are in awe of the dedication of our nurses and office staff members. We also want to commend our custodians, delivery vendors, vaccine and infant formula representatives, IT/Tech consultants and all other vendors that are helping us to provide health care to your children. 
+
+This has been such a trying experience, and yet we always see smiling faces through the eyes of everyone wearing their masks when they come into our offices for check ups or any other concerns.
+
+We are still open at both offices for both well and sick visits. We continue to avoid using our waiting rooms. We want everyone to feel safe that they will avoid any exposure to illness in the office. After a COVID pre-screening, we are ushering all patients straight back to freshly santized examination rooms. We are helping you to practice strict social distancing while in the offices. In addition we are able to still provide telemedicine visits for appropriate concerns.
+
+As of April 2020 our Saturday hours were transitioned to telemedicine hours to help reduce unnecessary office openings. We appreciate the enthusiastic response we have received seeing patients remotely in their homes on Saturdays. It brings us joy to be able to help from a slight distance.
+
+We also want everyone to know that the CDC advises universal flu vaccination this year. It is of the utmost importance to help prevent a feared double-pandemic this winter - of both COVID-19 and Flu. Please call ASAP to schedule your childrens' flu vaccines. They are in stock in both offices and appointments are readily available. Also, please do not forget to get to the pharmacy or your own primary care office to get your own flu vaccine. We are all in this together!
+
 **MARCH 23, 2020**
 
 The COVID-19 pandemic is teaching us many lessons. Our priority remains the wellness and safety of our patents and staff. Social distancing will help "flatten the curve" of this pandemic and we salute your dedication to this mission. The AAP is recommending that children social distance and avoid playgrounds and playdates. We also want you to know we are still here for you and we are following these guidelines in the office:
