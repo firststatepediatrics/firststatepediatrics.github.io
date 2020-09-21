@@ -6,6 +6,6 @@ title: New Parents
 
 Congratulations on your new baby! We excel at newborn infant care, and it is our pleasure to guide you during these exciting and challenging first weeks and months.
 
-If you deliver at Christiana Hospital, one of our five doctors will see your baby on the post-partum unit each morning until discharge. If you have your baby at another hospital or if your baby is a NICU graduate going home, please call to notify us so we can schedule their first appointment promptly. 
+If you choose for us to be your pediatric practice, please notify the hospitalist newborn care provider at the hospital or birth center that we will be caring for your baby after discharge and they will forward the records to us. 
 
-The Newark office has a monthly prenatal visit (offered as a group) if you would like to meet one of the doctors in the Newark office. Currently the Hockessin office is not able to accommodate prenatal appointments. Please call 368-2501 to be added to the monthly prenatal visit for Newark only.
+It is strongly recommended that all newborns have their first follow up appointment within 3-4 days after hospital discharge. Please call us as soon as possible after discharge to schedule the first appointment. At times it will be recommended at discharge that you bring your baby in sooner. We will try to accommodate these requests. Please be aware that we do not see newborns or any well child visits on the weekend, but we are available for telemedicine visits on Saturday mornings.
