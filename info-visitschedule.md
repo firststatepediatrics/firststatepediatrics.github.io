@@ -19,12 +19,12 @@ We strongly adhere to the preventive health recommendations of the American Acad
 *   (hepatitis B vaccine #2 given at 1 or 2 months)
 * 4 months - vaccines: Pentacel, Prevnar, Rotateq(oral)
 * 6 months - vaccines: Pentacel, Prevnar, Rotateq(oral)
-* 9 months 
-*   (hepatitis B vaccine #3 given at 6 or 9 months)
+* 9 months - developmental screening
+*   (hepatitis B vaccine #3 is given at 6 or 9 months)
 * 12 months - vaccines: MMR, chicken pox, hepatitis A
 * 15 months - vaccines: Pentacel, Prevnar
 * 18 months - vaccine: hepatitis A; developmental screening
-* 24 months 
+* 24 months - developmental screening
 * 30 months - developmental screening
 * 36 months and on: Annual Well Child Visit until age 21
 * 4 year old vaccines: DTaP/Polio, MMR, chicken pox
