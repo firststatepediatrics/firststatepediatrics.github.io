@@ -38,7 +38,7 @@ Fax: 302-239-2604
 * Friday 8:30am to 5:00pm
 * Saturday 9:00am to 12:00pm*
 
-*Saturday we see acute sick appointments only. Patients of both offices are seen at the on-call doctor's site, alternating between Newark and Hockessin. Please call your doctor's office number starting at 8:30am for an appointment.
+*EFFECTIVE APRIL 2020 SATURDAY APPOINTMENTS ARE TELEMEDICINE ONLY DUE TO THE PENDEMIC; WE ANTICIPATE RESUMING IN-PERSON SATURDAY APPOINTMENTS IN SEPTEMBER 2021. Saturday we see acute need appointments only. Patients of both offices are seen at the on-call doctor's site, alternating between Newark and Hockessin. Please call your doctor's office number starting at 8:30am for an appointment.
 
 ##### After Hours
 Routine questions and concerns are best handled during routine business hours. If your child has an acute medical problem or emergency after 5:00pm or during the weekend that cannot wait until the office opens, please 
