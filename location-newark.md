@@ -39,7 +39,7 @@ Fax: 302-368-4742
 
 Our answering service starts taking our phone calls at 5pm. We stay in the evening only if our sick patient volume exceeds our daytime hours. Please call to schedule your child's sick visit as early in the day as possible. Thank you.
 
-*Saturday we see acute sick appointments only. Patients of both offices are seen at the on-call doctor's site, alternating between Newark and Hockessin. Please call your doctor's office number starting at 8:30am for an appointment. 
+*EFFECTIVE APRIL 2020 SATURDAY APPOINTMENTS ARE TELEMEDICINE ONLY DUE TO THE PENDEMIC; WE ANTICIPATE RESUMING IN-PERSON SATURDAY APPOINTMENTS IN SEPTEMBER 2021. Saturday we see acute need appointments only. Patients of both offices are seen at the on-call doctor's site, alternating between Newark and Hockessin. Please call your doctor's office number starting at 8:30am for an appointment. 
 
 ##### After Hours
 
