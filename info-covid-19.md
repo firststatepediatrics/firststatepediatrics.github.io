@@ -3,6 +3,12 @@ layout: default
 bodyclass: sub-page
 title: COVID-19 Information
 ---
+**JUNE 1,2021**
+
+Again, it is hard to believe how things have changed in the last 9 months. The availability of Covid-19 vaccination has started to spread a ray of hope that the lives of adults and children alike will soon be much more "normal". At this time we as physicians would like to formally announce that we strongly recommend the Covid-19 vaccine for all eligible patients and their parents. Currently the approved vaccine is the Pfizer mRNA Covid-19 vaccine for children 12 and older. This has been shown to be a safe and effective vaccine. The AAP formally recommends that all eligible children receive the vaccine. There are links to the DE and PA vaccine location websites in a banner on our site. We are grateful to all of the parents that have already received their vaccine and we look forward to hearing that more and more patients have received theirs. Stay well and see you soon! The doctors of First State Pediatrics
+
+[https://pediatrics.aappublications.org/content/pediatrics/early/2021/05/11/peds.2021-052336.full.pdf](https://pediatrics.aappublications.org/content/pediatrics/early/2021/05/11/peds.2021-052336.full.pdf)
+
 **SEPTEMBER 21, 2020**
 
 It is hard to believe that this pandemic has changed all of our lives so much in the last 6 months. We are so proud of the incredible resilience displayed by our amazing patients and families. In addition we are in awe of the dedication of our nurses and office staff members. We also want to commend our custodians, delivery vendors, vaccine and infant formula representatives, IT/Tech consultants and all other vendors that are helping us to provide health care to your children. 
