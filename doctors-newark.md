@@ -22,7 +22,7 @@ title: Newark Doctors
 	</div> 
 	<div class="media-body"> 
 		<h4 class="media-heading">Dr. Kathleen Leach</h4> 
-		<p>Dr. Leach grew up in suburban Philadelphia. She received her Bachelor of Science degree from Bates College in Maine, and also studied at the University of Maine. Dr. Leach then attended Drexel University College of Medicine. She completed her pediatric residency at TJU / Alfred I. duPont Hospital for Children. Dr. Leach enjoys spending time with her husband and their son, and together they enjoy bicycling and skiing. She also enjoys throwing on the pottery wheel. She joined the practice in 2006.</p>
+		<p>Dr. Leach grew up in suburban Philadelphia. She received her Bachelor of Science degree from Bates College in Maine, and also studied at the University of Maine. Dr. Leach then attended Drexel University College of Medicine. She completed her pediatric residency at TJU / Alfred I. duPont Hospital for Children. Dr. Leach enjoys spending time with her husband and their son. She enjoys tennis, skiing, and making pottery. She joined the practice in 2006.</p>
 		<p>Dr. Leach is a board certified pediatrician and Fellow of the American Academy of Pediatrics.</p>
 	</div> 
 
