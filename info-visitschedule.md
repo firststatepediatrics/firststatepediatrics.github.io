@@ -11,9 +11,9 @@ We strongly adhere to the preventive health recommendations of the American Acad
 [Recommended Immunizations for Preteens and Teens, 7-18 Years - CDC/ACIP OFFICIAL LINK](https://www.cdc.gov/vaccines/schedules/easy-to-read/adolescent-shell-easyread.html)
 
 ### WELL CHILD VISIT AND VACCINE SCHEDULE:
-* After delivery: we round daily at Christiana Hospital / hepatitis B vaccine given in hospital
+* After delivery: hepatitis B vaccine given in hospital
 * 2-4 days after discharge
-* 1-2 weeks later - weight check
+* 1-2 weeks later - weight check / Beyfortus (RSV) if appropriate/desired (Newark)
 * 1 month
 * 2 months - vaccines: Pentacel*, Prevnar, Rotateq(oral)
 *   (hepatitis B vaccine #2 given at 1 or 2 months)
@@ -32,7 +32,7 @@ We strongly adhere to the preventive health recommendations of the American Acad
 * 11 years or older: Gardasil 9 (2 doses 6 months apart under age 15, 3 doses over age 15) 
 * 16 years vaccine: Menactra
 * 16-18 years vaccine: Trumemba (2 doses 6 months apart)
-* 18 year old vaccine: Tdap
+* 18+ year old vaccine: Tdap when appropriate
 
 *Pentacel: DTaP, polio, HIB combination vaccine.
 We use the available combination vaccines to reduce the total number of injections. When there are shortages we substitue the individual component vaccines. All scheduled vaccines are thimerosol-free. 
