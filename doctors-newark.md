@@ -12,7 +12,7 @@ title: Newark Doctors
 	<div class="media-body"> 
 		<h4 class="media-heading">Dr. John Murphy</h4> 
 		<p>Dr. Murphy grew up in Delaware, attending Archmere Academy for high school. He majored in Biology at St. Joseph's University in Philadelphia. He then attended Georgetown University School of Medicine and completed his residency in Pediatrics there as well. Dr. Murphy joined the Newark Practice in 2000. He enjoys golf when not spending time with his wife and their three children.</p>
-		<p>Dr. Murphy is a board certified pediatrician and Fellow of the American Academy of Pediatrics.</p>
+		<p>Dr. Murphy is a board certified pediatrician.</p>
 	</div> 
 </div>
 
