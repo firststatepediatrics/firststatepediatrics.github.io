@@ -15,7 +15,7 @@ We currently accept the following insurance plans:
 * Highmark Blue Cross/Blue Shield
 * Highmark Health Options 
 * Independence Blue Cross
-* Keystone/Amerihealth
+* Keystone/IBX
 * Personal Choice
 * Tricare
 * United Health Care
