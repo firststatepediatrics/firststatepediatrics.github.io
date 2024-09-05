@@ -31,10 +31,10 @@ Fax: 302-239-2604
 {% include top-jump.html %}
 
 ### Hours
-* Monday 8:30am to 5:00pm
+* Monday 8:30am to 7:00pm
 * Tuesday 8:30am to 7:00pm
 * Wednesday 8:30am to 7:00pm
-* Thursday 8:30am to 7:00pm
+* Thursday 8:30am to 5:00pm
 * Friday 8:30am to 5:00pm
 
 Please note that office hours are subject to change based on holiday and other schedule adjustments. If the office is closed the on-call nurse service will be available.
